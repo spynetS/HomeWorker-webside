@@ -1,19 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Login</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Log in</title>
+	<link rel="stylesheet" type="text/css" href="css/loginstyle.css">
 </head>
-<body>
+
+
+<body class="body">
+
 	<form class="box1">
 		<div>
-			<h1>Login</h1>
+			<h1>Log in</h1>
 		</div>
+		<div class="usernameddiv">
+			<input type="text" name="username" placeholder="Username">
+			<img width=24 src="Images/user.png">
+		</div>
+		<div class="passworddiv">
+			<input type="password" name="password" placeholder="Password">
+		<img width=32 src="Images/lock.png">
+		</div>
+
+		<div class="keep">
+			<input type="checkbox" name="">Keep me logged in
+		</div>
+
 		<div>
-			<input type="text" name="username" placeholder="username">
+			<button onclick="login();" class="button">Log in</button>
+			<a href="">Forgot password?</a> 
+			<a href="SignUp.html">Sign up</a>
 		</div>
-		<div><input type="password" name="password" placeholder="password"></div>
-		<div><button class="Button2"><a style="width: 100%;" class="Button2" href="Home.html">Login</a></button></div>
 	</form>
+	<script src="javascript/login.js"></script>
 </body>
 </html>

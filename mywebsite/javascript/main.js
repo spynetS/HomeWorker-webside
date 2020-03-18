@@ -11,6 +11,7 @@ function toggleSidebar()
 
 const submitbut = document.getElementById('submit');
 
+document.getElementById('dateName').valueAsDate = new Date();
 
 function submit()
 {
@@ -29,7 +30,6 @@ function submit()
 	var li = document.createElement("li");
   	li.appendChild(document.createTextNode(subjekt+" "+task+" "+date));
   	ul.appendChild(li);
-	document.getElementById('dateName').value= "";
 	document.getElementById('subjektName').value= "";
 	document.getElementById('taskName').value= "";
 	}

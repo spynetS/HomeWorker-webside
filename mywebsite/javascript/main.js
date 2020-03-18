@@ -3,6 +3,9 @@ const mouseTarget = document.getElementById('sidebar');
 mouseTarget.addEventListener('mouseenter', e => {
   toggleSidebar();
 });
+mouseTarget.addEventListener('mouseleave', e => {
+  toggleSidebar();
+});
 
 function toggleSidebar()
 {

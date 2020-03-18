@@ -1,0 +1,147 @@
+body{
+	background-color: #f4f4f4;
+	color: #555555;
+	font-family: Arial,Helvetica;
+	font-size: 20px;
+	font-weight: normal;
+
+	line-height: 1.6em;
+	
+}
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.main
+{
+	width: 700px;
+	font-size: 32px;
+	padding: 23px;
+	margin: 100px;
+	font-family: Arial; 
+
+}
+.main input
+{
+	font-size: 32px;
+	margin: 10px;
+
+}
+.main ul
+{
+	
+	padding: 50px;
+
+}
+.main button
+{
+	font-size: 32px;
+	width: 100%;
+
+}
+#sidebar{
+	
+	height: 100%;
+	width: 250px;
+	position: absolute;
+	background: #1062e6;
+	left:-200px;
+
+}
+#sidebar li
+{
+	padding: 20px;
+	font-size: 24px;
+	width: 100%;
+}
+#sidebar a
+{
+	text-decoration: none;
+}
+
+#sidebar.active
+{
+	left:0px;
+
+}
+#sidebar h1
+{
+	font-size: 32px;
+	padding-top:10px;
+	color: white;
+}
+.Button
+{
+	background-color: #1062e6;
+	color: #ccc;
+	border:none;
+  	font-size: 20px;
+  	padding: 20px;
+}
+
+.Button:hover
+{
+	background: #4287f5;
+	color: white;
+}
+
+.Button a
+{
+	
+	text-decoration: none;
+	width: 100%;
+
+}
+
+.container
+{
+	width:80%;
+	margin: auto;
+}
+.box-1{
+	
+	padding: 10px;
+	margin-left: 100px;
+}
+.box-1 h1{
+	font-family: Tahoma;
+}
+.box-1 input{
+	font-family: Arial;
+}
+.box-1 button{
+	font-family: Arial;
+}
+.Button2
+{
+	width: 100%;
+
+}
+.box1
+{
+	
+	padding-left: 40%;
+	padding-right: 40%;
+	padding-top: 50px;
+}
+
+.MainList
+{
+	border: 3px #ccc solid;
+	list-style: none;
+}
+.MainList li
+{
+	padding-top: 15px;
+}
+a:hover
+{
+	color: red;
+}
+#submit:hover
+{
+	background-color: #ccc;
+}

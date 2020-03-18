@@ -47,6 +47,7 @@ body{
 	position: absolute;
 	background: #52c0ff;
 	left:-200px;
+	transition: all 100ms linear;
 
 }
 #sidebar li:hover

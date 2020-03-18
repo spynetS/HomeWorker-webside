@@ -2,7 +2,9 @@
 <html>
 <head>
 	<title>HomeWorker</title>
+	<link rel="stylesheet" type="text/css" href="css/vocabulary.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+
 </head>
 <body>
 <ul id="sidebar">
@@ -25,23 +27,39 @@
 		<li id="home"><a class="Button" href="index.html">Logout</a></li>
 		
 	</ul>
-	<form>
+	<form class="form1">
 		<div>
-		asdasd
-		<select></select>
-		<select>
-			<option value="first">First langauge</option>
-			<option value="secund">Secund langauge</option>
-		</select>
-		<select>
-			<option value="inOrder">In order</option>
-			<option value="notInOrder">Not in order</option>
-		</select>
-		<button>Start</button>
+		
+			<select id="vocProd">
+				<option>asd</option>
+				<option>asdsdf</option>
+
+			</select>
+			<select>
+				<option value="first">First langauge</option>
+				<option value="secund">Secund langauge</option>
+			</select>
+			<select>
+				<option value="inOrder">In order</option>
+				<option value="notInOrder">Not in order</option>
+			</select>
+			<button type="button" id="startBut" onclick="StartVocProd();">Start</button>
+		</div>
+	</form>
+	<form class="form2">
+		<div>
+			<input type="text" name="firstWord" id="firstWord">
+			<input type="text" name="secundWord" id="secundWord">
+			<button type="button" id="correctBut" onclick="Correct();" >Correct</button>
+			<label id="wordOn">0</label>
+			<label id="words">/0</label>
+			<label id="rightAnswer">Right</label>
 		</div>
 	</form>
 	
 	<script src="javascript/main.js"></script>
-
+	<script src="javascript/vocabulary.js"></script>
+	<script src="javascript/fromhome.js"></script>
+	
 </body>
 </html>

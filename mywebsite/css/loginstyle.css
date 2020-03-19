@@ -83,5 +83,20 @@ a:hover
 }
 .button:hover
 {
-	background-color: #13802c;
+	background-color: #0D952B;
+
+}
+
+#wrongMessage
+{
+	background-color: rgba(217, 0, 0, 0.6);
+	opacity: 0;
+}
+#wrongMessage.active
+{
+	opacity: 1;
+}
+#as
+{
+	opacity: 0;
 }

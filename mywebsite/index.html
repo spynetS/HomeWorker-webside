@@ -13,11 +13,11 @@
 			<h1>Log in</h1>
 		</div>
 		<div class="usernameddiv">
-			<input type="text" name="username" placeholder="Username">
+			<input id="userName" type="text" placeholder="Username">
 			<img width=24 src="Images/user.png">
 		</div>
 		<div class="passworddiv">
-			<input type="password" name="password" placeholder="Password">
+			<input id="passWord" type="password" placeholder="Password">
 		<img width=32 src="Images/lock.png">
 		</div>
 
@@ -26,9 +26,15 @@
 		</div>
 
 		<div>
-			<button onclick="login();" class="button">Log in</button>
+			<button type="button" onclick="login();" class="button">Log in</button>
 			<a href="">Forgot password?</a> 
 			<a href="SignUp.html">Sign up</a>
+		</div>
+		<div id="wrongMessage">
+			<br>
+			<label>Wrong password!!!</label>
+			<br>
+			<label id="as">asdasd</label>
 		</div>
 	</form>
 	<script src="javascript/login.js"></script>
